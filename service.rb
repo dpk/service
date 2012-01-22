@@ -1,7 +1,6 @@
 #!/usr/bin/env macruby
 
 framework 'AppKit'
-require 'optparse'
 
 def apply_service name, string
   pb = NSPasteboard.pasteboardWithUniqueName
